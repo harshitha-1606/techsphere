@@ -1,0 +1,30 @@
+.secret_key
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Databases and private data
+*.db
+*.sqlite
+*.sqlite3
+data/
+uploads/
+generated/
+
+# Editor history
+.history/
+
+# Generated certificates
+*.pdf
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
